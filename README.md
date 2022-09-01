@@ -1,0 +1,1 @@
+# nyakok_fejlesztese
