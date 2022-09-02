@@ -149,7 +149,7 @@
 <hole x="20.63749375" y="13.0174625" drill="3.5"/>
 <text x="42.5843625" y="46.31250625" size="1.4224" layer="21" font="vector" ratio="20" rot="R270">Stopper_alap
   V1.3</text>
-<text x="98.22375625" y="22.1056125" size="2.1844" layer="16" font="vector" ratio="20" rot="MR0">Stopper_alap V1.3</text>
+<text x="97.74750625" y="22.5818625" size="2.1844" layer="16" font="vector" ratio="20" rot="MR0">Stopper_alap V1.3</text>
 <circle x="5.4125" y="53.08375" radius="0.4572" width="0.254" layer="1"/>
 <circle x="5.4125" y="53.08375" radius="0.0254" width="0.254" layer="1"/>
 <circle x="22.846246875" y="52.407496875" radius="0.2032" width="0.3048" layer="1"/>
