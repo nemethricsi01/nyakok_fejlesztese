@@ -3866,7 +3866,7 @@ Created by Upverter.com</description>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="N$1" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="66.04" y1="101.6" x2="63.5" y2="101.6" width="0.1524" layer="91"/>
