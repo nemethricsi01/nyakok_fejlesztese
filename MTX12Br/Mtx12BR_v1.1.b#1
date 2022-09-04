@@ -208,6 +208,7 @@
 <text x="72.957496875" y="52.821871875" size="1.9304" layer="26" font="vector" ratio="20" rot="MR0">MTX12BR    
   V1</text>
 <text x="125.1712" y="43.0784" size="1.778" layer="25">R20 átkötés jav</text>
+<text x="19.5072" y="61.3664" size="1.778" layer="25">8. gomb feletti narancssárga LED bekötés jav</text>
 </plain>
 <libraries>
 <library name="Cf_RLCPX">

@@ -1905,7 +1905,18 @@ design rules under a new name.</description>
 <signal name="N$24">
 <contactref element="IC3" pad="9"/>
 <contactref element="DPL2" pad="K"/>
-<wire x1="33.695" y1="47.945" x2="41.28131875" y2="55.566040625" width="0" layer="19" extent="16-16"/>
+<wire x1="41.28131875" y1="55.566040625" x2="41.28131875" y2="54.48931875" width="0.3048" layer="16"/>
+<wire x1="41.28131875" y1="54.48931875" x2="41.0464" y2="54.2544" width="0.3048" layer="16"/>
+<wire x1="41.0464" y1="54.2544" x2="35.3568" y2="54.2544" width="0.3048" layer="16"/>
+<via x="35.3568" y="54.2544" extent="1-16" drill="0.6"/>
+<wire x1="35.3568" y1="54.2544" x2="35.3568" y2="52.4256" width="0.3048" layer="1"/>
+<wire x1="35.3568" y1="52.4256" x2="35.1536" y2="52.2224" width="0.3048" layer="1"/>
+<wire x1="35.1536" y1="52.2224" x2="32.3088" y2="52.2224" width="0.3048" layer="1"/>
+<wire x1="32.3088" y1="52.2224" x2="31.496" y2="51.4096" width="0.3048" layer="1"/>
+<wire x1="31.496" y1="51.4096" x2="31.496" y2="47.9552" width="0.3048" layer="1"/>
+<via x="31.496" y="47.9552" extent="1-16" drill="0.6"/>
+<wire x1="31.496" y1="47.9552" x2="33.6848" y2="47.9552" width="0.3048" layer="16"/>
+<wire x1="33.6848" y1="47.9552" x2="33.695" y2="47.945" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$25">
 <contactref element="DL2" pad="2"/>

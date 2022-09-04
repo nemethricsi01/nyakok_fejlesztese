@@ -2162,7 +2162,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <text x="76.2" y="48.26" size="7.62" layer="91">Villsáv</text>
 <text x="-297.18" y="-22.86" size="1.524" layer="91">vagy 4k7 fehérled függő</text>
 <text x="-220.98" y="-43.18" size="6.4516" layer="91">FELSŐ SOR 7-12 gombja</text>
-<text x="-274.32" y="-27.94" size="1.778" layer="91">120R ha SCT2168</text>
 </plain>
 <instances>
 <instance part="Q1" gate="G$1" x="-299.72" y="86.36"/>
