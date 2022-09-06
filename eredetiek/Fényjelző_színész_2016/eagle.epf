@@ -1,0 +1,39 @@
+[Eagle]
+Version="06 01 00"
+Platform="Windows"
+Serial="7004B95A68-LSR-WLM-1CP"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/CF_Trafo.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Cf_Csatl.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Cf_Egyeb.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Cf_Felv.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Cf_IC.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Cf_Modul.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Cf_Panel.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Cf_RLCPX.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Cf_Tran.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Cf_Tranx.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Cf_UC.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Microchip_By_element14_Batch_1.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/Narvalex.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/csatik.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/dp_devices.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/jumper.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/narval.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/pot.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/rcl.lbr"
+UsedLibrary="C:/Program Files/EAGLE-6.1.0/lbr/Narval/supply1.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="88 88 687 487"
+State=2
+Number=0
+
+[Desktop]
+Screen="1024 600"
+Window="Win_1"
