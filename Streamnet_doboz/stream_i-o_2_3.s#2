@@ -22151,6 +22151,9 @@ http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;name=A24734CT-ND
 <sheet>
 <plain>
 <text x="144.78" y="-215.9" size="1.778" layer="91">2022-ig 1k volt</text>
+<text x="50.8" y="-210.82" size="1.778" layer="91">érzékelő busz felhúzó eddig 5v-on 2k2 volt, de ez bizonytalan lett 4k7 is bizonytalan, 10k-n jó 22k megint szar
+ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
+2022 augusztus vége</text>
 </plain>
 <instances>
 <instance part="ZOLD_4P1" gate="_1" x="210.82" y="-251.46" rot="MR180"/>
@@ -25964,4 +25967,10 @@ http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;name=A24734CT-ND
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
