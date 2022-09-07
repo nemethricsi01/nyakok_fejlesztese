@@ -2041,173 +2041,6 @@ grid 5.08 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="StarChips">
-<packages>
-<package name="SOP16">
-<wire x1="-2.0849" y1="-4.9784" x2="2.0849" y2="-4.9784" width="0.2032" layer="21"/>
-<wire x1="2.0849" y1="-4.9784" x2="2.0849" y2="4.9784" width="0.2032" layer="21"/>
-<wire x1="2.0849" y1="4.9784" x2="-2.0849" y2="4.9784" width="0.2032" layer="21"/>
-<wire x1="-2.0849" y1="4.9784" x2="-2.0849" y2="-4.9784" width="0.2032" layer="21"/>
-<circle x="-1.285" y="4.164" radius="0.3349" width="0.1016" layer="21"/>
-<smd name="1" x="-3.24" y="4.445" dx="1" dy="0.5" layer="1"/>
-<smd name="2" x="-3.24" y="3.175" dx="1" dy="0.5" layer="1"/>
-<smd name="3" x="-3.24" y="1.905" dx="1" dy="0.5" layer="1"/>
-<smd name="4" x="-3.24" y="0.635" dx="1" dy="0.5" layer="1"/>
-<smd name="5" x="-3.24" y="-0.635" dx="1" dy="0.5" layer="1" rot="R180"/>
-<smd name="6" x="-3.24" y="-1.905" dx="1" dy="0.5" layer="1" rot="R180"/>
-<smd name="7" x="-3.24" y="-3.175" dx="1" dy="0.5" layer="1" rot="R180"/>
-<smd name="8" x="-3.24" y="-4.445" dx="1" dy="0.5" layer="1" rot="R180"/>
-<smd name="9" x="3.24" y="-4.445" dx="1" dy="0.5" layer="1" rot="R180"/>
-<smd name="10" x="3.24" y="-3.175" dx="1" dy="0.5" layer="1" rot="R180"/>
-<smd name="11" x="3.24" y="-1.905" dx="1" dy="0.5" layer="1" rot="R180"/>
-<smd name="12" x="3.24" y="-0.635" dx="1" dy="0.5" layer="1" rot="R180"/>
-<smd name="13" x="3.24" y="0.635" dx="1" dy="0.5" layer="1"/>
-<smd name="14" x="3.24" y="1.905" dx="1" dy="0.5" layer="1"/>
-<smd name="15" x="3.24" y="3.175" dx="1" dy="0.5" layer="1"/>
-<smd name="16" x="3.24" y="4.445" dx="1" dy="0.5" layer="1"/>
-<text x="-1.905" y="5.715" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-6.985" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-3.471" y1="4.2545" x2="-2.15" y2="4.6355" layer="51"/>
-<rectangle x1="-3.471" y1="2.9845" x2="-2.15" y2="3.3655" layer="51"/>
-<rectangle x1="-3.471" y1="1.7145" x2="-2.15" y2="2.0955" layer="51"/>
-<rectangle x1="-3.471" y1="0.4445" x2="-2.15" y2="0.8255" layer="51"/>
-<rectangle x1="-3.471" y1="-0.8255" x2="-2.15" y2="-0.4445" layer="51" rot="R180"/>
-<rectangle x1="-3.471" y1="-2.0955" x2="-2.15" y2="-1.7145" layer="51" rot="R180"/>
-<rectangle x1="-3.471" y1="-3.3655" x2="-2.15" y2="-2.9845" layer="51" rot="R180"/>
-<rectangle x1="-3.471" y1="-4.6355" x2="-2.15" y2="-4.2545" layer="51" rot="R180"/>
-<rectangle x1="2.15" y1="-4.6355" x2="3.471" y2="-4.2545" layer="51" rot="R180"/>
-<rectangle x1="2.15" y1="-3.3655" x2="3.471" y2="-2.9845" layer="51" rot="R180"/>
-<rectangle x1="2.15" y1="-2.0955" x2="3.471" y2="-1.7145" layer="51" rot="R180"/>
-<rectangle x1="2.15" y1="-0.8255" x2="3.471" y2="-0.4445" layer="51" rot="R180"/>
-<rectangle x1="2.15" y1="0.4445" x2="3.471" y2="0.8255" layer="51"/>
-<rectangle x1="2.15" y1="1.7145" x2="3.471" y2="2.0955" layer="51"/>
-<rectangle x1="2.15" y1="2.9845" x2="3.471" y2="3.3655" layer="51"/>
-<rectangle x1="2.15" y1="4.2545" x2="3.471" y2="4.6355" layer="51"/>
-</package>
-<package name="SSOP16">
-<wire x1="5.24" y1="-3.7" x2="-5.24" y2="-3.7" width="0.2032" layer="51"/>
-<wire x1="-5.24" y1="-3.7" x2="-5.24" y2="3.7" width="0.2032" layer="51"/>
-<wire x1="-5.24" y1="3.7" x2="5.24" y2="3.7" width="0.2032" layer="51"/>
-<wire x1="5.24" y1="3.7" x2="5.24" y2="-3.7" width="0.2032" layer="51"/>
-<circle x="-3.81" y="-2.54" radius="0.635" width="0.127" layer="21"/>
-<smd name="2" x="-3.175" y="-4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-4.445" y="-4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="-1.905" y="-4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="-0.635" y="-4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="1.905" y="-4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="0.635" y="-4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="3.175" y="-4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="4.445" y="-4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="9" x="4.445" y="4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="10" x="3.175" y="4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="11" x="1.905" y="4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="12" x="0.635" y="4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="13" x="-0.635" y="4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="14" x="-1.905" y="4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="15" x="-3.175" y="4.854" dx="0.6" dy="2.2" layer="1"/>
-<smd name="16" x="-4.445" y="4.854" dx="0.6" dy="2.2" layer="1"/>
-<text x="-1.905" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-4.6901" y1="-5.32" x2="-4.1999" y2="-3.8001" layer="51"/>
-<rectangle x1="-3.4201" y1="-5.32" x2="-2.9299" y2="-3.8001" layer="51"/>
-<rectangle x1="-2.1501" y1="-5.32" x2="-1.6599" y2="-3.8001" layer="51"/>
-<rectangle x1="-0.8801" y1="-5.32" x2="-0.3899" y2="-3.8001" layer="51"/>
-<rectangle x1="0.3899" y1="-5.32" x2="0.8801" y2="-3.8001" layer="51"/>
-<rectangle x1="1.6599" y1="-5.32" x2="2.1501" y2="-3.8001" layer="51"/>
-<rectangle x1="2.9299" y1="-5.32" x2="3.4201" y2="-3.8001" layer="51"/>
-<rectangle x1="4.1999" y1="-5.32" x2="4.6901" y2="-3.8001" layer="51"/>
-<rectangle x1="4.1999" y1="3.8001" x2="4.6901" y2="5.32" layer="51"/>
-<rectangle x1="2.9299" y1="3.8001" x2="3.4201" y2="5.32" layer="51"/>
-<rectangle x1="1.6599" y1="3.8001" x2="2.1501" y2="5.32" layer="51"/>
-<rectangle x1="0.3899" y1="3.8001" x2="0.8801" y2="5.32" layer="51"/>
-<rectangle x1="-0.8801" y1="3.8001" x2="-0.3899" y2="5.32" layer="51"/>
-<rectangle x1="-2.1501" y1="3.8001" x2="-1.6599" y2="5.32" layer="51"/>
-<rectangle x1="-3.4201" y1="3.8001" x2="-2.9299" y2="5.32" layer="51"/>
-<rectangle x1="-4.6901" y1="3.8001" x2="-4.1999" y2="5.32" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SCT2168">
-<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
-<text x="-5.08" y="15.24" size="1.27" layer="95" rot="R180">&gt;NAME</text>
-<text x="-10.16" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
-<pin name="OUT1" x="17.78" y="7.62" length="middle" rot="R180"/>
-<pin name="OUT2" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="OUT3" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="OUT4" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="OUT5" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="OUT6" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="OUT7" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="OUT0" x="17.78" y="10.16" length="middle" rot="R180"/>
-<pin name="VDD" x="0" y="17.78" length="middle" rot="R270"/>
-<pin name="GND" x="0" y="-17.78" length="middle" rot="R90"/>
-<pin name="SDI" x="-17.78" y="10.16" length="middle"/>
-<pin name="SDO" x="-17.78" y="7.62" length="middle"/>
-<pin name="CLK" x="-17.78" y="5.08" length="middle"/>
-<pin name="!OE" x="-17.78" y="0" length="middle"/>
-<pin name="REXT" x="-17.78" y="-7.62" length="middle"/>
-<pin name="!LA" x="-17.78" y="-2.54" length="middle"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SCT21">
-<gates>
-<gate name="SCT2168" symbol="SCT2168" x="0" y="0"/>
-</gates>
-<devices>
-<device name="SOP16" package="SOP16">
-<connects>
-<connect gate="SCT2168" pin="!LA" pad="4"/>
-<connect gate="SCT2168" pin="!OE" pad="13"/>
-<connect gate="SCT2168" pin="CLK" pad="3"/>
-<connect gate="SCT2168" pin="GND" pad="1"/>
-<connect gate="SCT2168" pin="OUT0" pad="5"/>
-<connect gate="SCT2168" pin="OUT1" pad="6"/>
-<connect gate="SCT2168" pin="OUT2" pad="7"/>
-<connect gate="SCT2168" pin="OUT3" pad="8"/>
-<connect gate="SCT2168" pin="OUT4" pad="9"/>
-<connect gate="SCT2168" pin="OUT5" pad="10"/>
-<connect gate="SCT2168" pin="OUT6" pad="11"/>
-<connect gate="SCT2168" pin="OUT7" pad="12"/>
-<connect gate="SCT2168" pin="REXT" pad="15"/>
-<connect gate="SCT2168" pin="SDI" pad="2"/>
-<connect gate="SCT2168" pin="SDO" pad="14"/>
-<connect gate="SCT2168" pin="VDD" pad="16"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="" package="SSOP16">
-<connects>
-<connect gate="SCT2168" pin="!LA" pad="4"/>
-<connect gate="SCT2168" pin="!OE" pad="13"/>
-<connect gate="SCT2168" pin="CLK" pad="3"/>
-<connect gate="SCT2168" pin="GND" pad="1"/>
-<connect gate="SCT2168" pin="OUT0" pad="5"/>
-<connect gate="SCT2168" pin="OUT1" pad="6"/>
-<connect gate="SCT2168" pin="OUT2" pad="7"/>
-<connect gate="SCT2168" pin="OUT3" pad="8"/>
-<connect gate="SCT2168" pin="OUT4" pad="9"/>
-<connect gate="SCT2168" pin="OUT5" pad="10"/>
-<connect gate="SCT2168" pin="OUT6" pad="11"/>
-<connect gate="SCT2168" pin="OUT7" pad="12"/>
-<connect gate="SCT2168" pin="REXT" pad="15"/>
-<connect gate="SCT2168" pin="SDI" pad="2"/>
-<connect gate="SCT2168" pin="SDO" pad="14"/>
-<connect gate="SCT2168" pin="VDD" pad="16"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -21963,6 +21796,138 @@ http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;name=A24734CT-ND
 </deviceset>
 </devicesets>
 </library>
+<library name="dp_devices">
+<description>Dangerous Prototypes Standard PCB sizes
+http://dangerousprototypes.com</description>
+<packages>
+<package name="DO323">
+<wire x1="-1" y1="0.7" x2="1" y2="0.7" width="0.1524" layer="51"/>
+<wire x1="1" y1="0.7" x2="1" y2="-0.7" width="0.1524" layer="51"/>
+<wire x1="1" y1="-0.7" x2="-1" y2="-0.7" width="0.1524" layer="51"/>
+<wire x1="-1" y1="-0.7" x2="-1" y2="0.7" width="0.1524" layer="51"/>
+<wire x1="-0.5" y1="0" x2="0.1" y2="0.4" width="0.1524" layer="51"/>
+<wire x1="0.1" y1="0.4" x2="0.1" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="0.1" y1="-0.4" x2="-0.5" y2="0" width="0.1524" layer="51"/>
+<smd name="C" x="-1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="A" x="1.1" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-2.54" y="0.9525" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.2225" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.7" y1="-0.7" x2="-0.5" y2="0.7" layer="51"/>
+</package>
+<package name="SOT-23">
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="51"/>
+<wire x1="-1.4224" y1="-0.1524" x2="-1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="-1.4224" y1="0.6604" x2="-0.8636" y2="0.6604" width="0.1524" layer="21"/>
+<wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.1524" width="0.1524" layer="21"/>
+<wire x1="0.8636" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21"/>
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<text x="-1.905" y="2.2225" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.905" y="-3.4925" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
+<rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
+<rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+</package>
+<package name="SOD-123">
+<description>SOD-123 0.91x1.22 mm pad</description>
+<wire x1="-0.1825" y1="0" x2="0.4175" y2="0.4" width="0.127" layer="21"/>
+<wire x1="0.4175" y1="0.4" x2="0.4175" y2="-0.4" width="0.127" layer="21"/>
+<wire x1="0.4175" y1="-0.4" x2="-0.1825" y2="0" width="0.127" layer="21"/>
+<wire x1="-1.345" y1="0.8" x2="1.345" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.345" y1="-0.8" x2="-1.345" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.345" y1="-0.8" x2="1.345" y2="0.8" width="0.127" layer="51"/>
+<wire x1="-1.345" y1="-0.8" x2="-1.345" y2="0.8" width="0.127" layer="51"/>
+<smd name="A" x="1.635" y="0" dx="0.91" dy="1.22" layer="1"/>
+<smd name="C" x="-1.635" y="0" dx="0.91" dy="1.22" layer="1"/>
+<text x="-1.27" y="1.27" size="1.27" layer="25" font="vector" ratio="10">&gt;NAME</text>
+<text x="-1.27" y="-2.54" size="1.27" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="1.345" y1="-0.305" x2="1.84" y2="0.305" layer="51"/>
+<rectangle x1="-1.84" y1="-0.305" x2="-1.345" y2="0.305" layer="51"/>
+<rectangle x1="-0.9275" y1="-0.8" x2="-0.4275" y2="0.8" layer="21"/>
+</package>
+<package name="DO-214AC">
+<description>1.27mm x 2.10mm pad dimention, 2.69mm pitch</description>
+<wire x1="-2.285" y1="1.46" x2="2.285" y2="1.46" width="0.1524" layer="21"/>
+<wire x1="-2.285" y1="-1.46" x2="2.285" y2="-1.46" width="0.1524" layer="21"/>
+<wire x1="-0.5" y1="1.0607" x2="-0.5" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.5" y1="0" x2="-0.5" y2="-1.0607" width="0.1524" layer="21"/>
+<wire x1="0.5607" y1="-1.0607" x2="-0.5" y2="0" width="0.1524" layer="21"/>
+<wire x1="-0.5" y1="0" x2="0.5607" y2="1.0607" width="0.1524" layer="21"/>
+<wire x1="0.5607" y1="1.0607" x2="0.5607" y2="-1.0607" width="0.1524" layer="21"/>
+<wire x1="-2.285" y1="1.46" x2="-2.285" y2="-1.46" width="0.1524" layer="51"/>
+<wire x1="2.285" y1="1.46" x2="2.285" y2="-1.46" width="0.1524" layer="51"/>
+<smd name="2" x="1.98" y="0" dx="1.27" dy="2.1" layer="1"/>
+<smd name="1" x="-1.98" y="0" dx="1.27" dy="2.1" layer="1"/>
+<text x="-2.625" y="1.875" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.5" y="-3" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-2.415" y1="-0.635" x2="-1.655" y2="0.635" layer="51"/>
+<rectangle x1="1.655" y1="-0.635" x2="2.415" y2="0.635" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="0.4826" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-2.3114" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DIODE" prefix="D" uservalue="yes">
+<description>Various Diode Packages</description>
+<gates>
+<gate name="D" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-DO323" package="DO323">
+<connects>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SOT23" package="SOT-23">
+<connects>
+<connect gate="D" pin="A" pad="1"/>
+<connect gate="D" pin="C" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-SOD-123" package="SOD-123">
+<connects>
+<connect gate="D" pin="A" pad="A"/>
+<connect gate="D" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-DO-214AC" package="DO-214AC">
+<connects>
+<connect gate="D" pin="A" pad="2"/>
+<connect gate="D" pin="C" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -22003,8 +21968,6 @@ http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;name=A24734CT-ND
 <part name="ZOLD_4P17" library="narval" deviceset="ZOLD_KICSI_4P" device=""/>
 <part name="OK1" library="optocoupler" deviceset="TLP283-4" device="" value="TLP281-4"/>
 <part name="T1" library="transistor" deviceset="*-PNP-" device="TO220V" value="BD242"/>
-<part name="IC1" library="StarChips" deviceset="SCT21" device="SOP16"/>
-<part name="U$5" library="StarChips" deviceset="SCT21" device="SOP16"/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805" value="6R8"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206" value="RED"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
@@ -22194,7 +22157,6 @@ http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;name=A24734CT-ND
 <part name="R49" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R50" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="R51" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
-<part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
@@ -22308,6 +22270,22 @@ http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;name=A24734CT-ND
 <part name="U$9" library="SCT2167" deviceset="SCT2167" device="SSOP"/>
 <part name="U$10" library="SCT2167" deviceset="SCT2167" device="SSOP"/>
 <part name="GND65" library="supply1" deviceset="GND" device=""/>
+<part name="D43" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D44" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D45" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D46" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D47" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D48" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D49" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D50" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D51" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D52" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D53" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D54" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D55" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D56" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D57" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="D58" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
 </parts>
 <sheets>
 <sheet>
@@ -22418,13 +22396,11 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <attribute name="NAME" x="55.88" y="-106.68" size="1.778" layer="95"/>
 <attribute name="VALUE" x="43.18" y="-101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="IC1" gate="SCT2168" x="182.88" y="-154.94" rot="R90"/>
-<instance part="U$5" gate="SCT2168" x="487.68" y="-154.94" rot="R90"/>
 <instance part="R1" gate="G$1" x="55.88" y="-93.98" rot="R90"/>
 <instance part="LED1" gate="G$1" x="45.72" y="-91.44"/>
 <instance part="GND1" gate="1" x="55.88" y="-121.92"/>
 <instance part="P+1" gate="1" x="45.72" y="-81.28"/>
-<instance part="GND2" gate="1" x="203.2" y="-160.02"/>
+<instance part="GND2" gate="1" x="208.28" y="-177.8"/>
 <instance part="T2" gate="G$1" x="91.44" y="-106.68" smashed="yes">
 <attribute name="NAME" x="93.98" y="-106.68" size="1.778" layer="95"/>
 <attribute name="VALUE" x="81.28" y="-101.6" size="1.778" layer="96"/>
@@ -22545,11 +22521,11 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <instance part="LED16" gate="G$1" x="617.22" y="-91.44"/>
 <instance part="GND17" gate="1" x="627.38" y="-121.92"/>
 <instance part="P+17" gate="1" x="617.22" y="-81.28"/>
-<instance part="GND18" gate="1" x="508" y="-160.02"/>
-<instance part="R17" gate="G$1" x="190.5" y="-180.34" rot="R90"/>
-<instance part="R18" gate="G$1" x="495.3" y="-180.34" rot="R90"/>
-<instance part="GND19" gate="1" x="190.5" y="-193.04"/>
-<instance part="GND20" gate="1" x="495.3" y="-193.04"/>
+<instance part="GND18" gate="1" x="513.08" y="-177.8"/>
+<instance part="R17" gate="G$1" x="185.42" y="-172.72" rot="R180"/>
+<instance part="R18" gate="G$1" x="490.22" y="-172.72"/>
+<instance part="GND19" gate="1" x="170.18" y="-177.8"/>
+<instance part="GND20" gate="1" x="474.98" y="-177.8"/>
 <instance part="D1" gate="G$1" x="187.96" y="-228.6" rot="MR90"/>
 <instance part="D2" gate="G$1" x="187.96" y="-243.84" rot="MR90"/>
 <instance part="D3" gate="G$1" x="187.96" y="-259.08" rot="MR90"/>
@@ -22567,7 +22543,7 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <instance part="D6" gate="G$1" x="83.82" y="-139.7" rot="R90"/>
 <instance part="D7" gate="G$1" x="121.92" y="-139.7" rot="R90"/>
 <instance part="D8" gate="G$1" x="160.02" y="-139.7" rot="R90"/>
-<instance part="D9" gate="G$1" x="198.12" y="-139.7" rot="R90"/>
+<instance part="D9" gate="G$1" x="210.82" y="-139.7" rot="R90"/>
 <instance part="D10" gate="G$1" x="236.22" y="-139.7" rot="R90"/>
 <instance part="D11" gate="G$1" x="274.32" y="-139.7" rot="R90"/>
 <instance part="D12" gate="G$1" x="312.42" y="-139.7" rot="R90"/>
@@ -22575,7 +22551,7 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <instance part="D14" gate="G$1" x="388.62" y="-139.7" rot="R90"/>
 <instance part="D15" gate="G$1" x="426.72" y="-139.7" rot="R90"/>
 <instance part="D16" gate="G$1" x="464.82" y="-139.7" rot="R90"/>
-<instance part="D17" gate="G$1" x="502.92" y="-139.7" rot="R90"/>
+<instance part="D17" gate="G$1" x="515.62" y="-139.7" rot="R90"/>
 <instance part="D18" gate="G$1" x="541.02" y="-139.7" rot="R90"/>
 <instance part="D19" gate="G$1" x="579.12" y="-139.7" rot="R90"/>
 <instance part="D20" gate="G$1" x="617.22" y="-139.7" rot="R90"/>
@@ -22666,15 +22642,18 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <instance part="GND42" gate="1" x="459.74" y="-271.78"/>
 <instance part="GND43" gate="1" x="459.74" y="-256.54"/>
 <instance part="GND44" gate="1" x="459.74" y="-241.3"/>
-<instance part="R49" gate="G$1" x="160.02" y="-342.9" rot="R90"/>
-<instance part="R50" gate="G$1" x="342.9" y="-342.9" rot="R90"/>
-<instance part="R51" gate="G$1" x="538.48" y="-342.9" rot="R90"/>
-<instance part="GND45" gate="1" x="160.02" y="-353.06"/>
-<instance part="GND46" gate="1" x="342.9" y="-355.6"/>
-<instance part="GND47" gate="1" x="538.48" y="-355.6"/>
-<instance part="GND48" gate="1" x="121.92" y="-335.28"/>
-<instance part="GND49" gate="1" x="292.1" y="-335.28"/>
-<instance part="GND50" gate="1" x="485.14" y="-335.28"/>
+<instance part="R49" gate="G$1" x="137.16" y="-335.28" rot="R180"/>
+<instance part="R50" gate="G$1" x="335.28" y="-335.28" rot="R180"/>
+<instance part="R51" gate="G$1" x="530.86" y="-335.28" rot="R180"/>
+<instance part="GND46" gate="1" x="320.04" y="-340.36"/>
+<instance part="GND47" gate="1" x="551.18" y="-340.36" smashed="yes">
+<attribute name="VALUE" x="548.64" y="-342.9" size="1.778" layer="96"/>
+</instance>
+<instance part="GND48" gate="1" x="121.92" y="-340.36"/>
+<instance part="GND49" gate="1" x="358.14" y="-340.36"/>
+<instance part="GND50" gate="1" x="515.62" y="-340.36" smashed="yes">
+<attribute name="VALUE" x="513.08" y="-342.9" size="1.778" layer="96"/>
+</instance>
 <instance part="DC1" gate="_GND" x="436.88" y="-388.62"/>
 <instance part="DC1" gate="_+" x="436.88" y="-383.54"/>
 <instance part="P+28" gate="1" x="431.8" y="-378.46"/>
@@ -22689,11 +22668,13 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <instance part="GND52" gate="1" x="375.92" y="-447.04"/>
 <instance part="GND53" gate="1" x="406.4" y="-447.04"/>
 <instance part="GND54" gate="1" x="43.18" y="-416.56"/>
-<instance part="+3V1" gate="G$1" x="162.56" y="-149.86"/>
-<instance part="+3V2" gate="G$1" x="467.36" y="-149.86"/>
-<instance part="+3V3" gate="G$1" x="485.14" y="-327.66"/>
-<instance part="+3V4" gate="G$1" x="292.1" y="-327.66"/>
-<instance part="+3V5" gate="G$1" x="152.4" y="-335.28" rot="R180"/>
+<instance part="+3V1" gate="G$1" x="200.66" y="-177.8" rot="R180"/>
+<instance part="+3V2" gate="G$1" x="505.46" y="-177.8" rot="R180"/>
+<instance part="+3V3" gate="G$1" x="546.1" y="-340.36" smashed="yes" rot="R180">
+<attribute name="VALUE" x="543.56" y="-337.82" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="+3V4" gate="G$1" x="350.52" y="-340.36" rot="R180"/>
+<instance part="+3V5" gate="G$1" x="152.4" y="-340.36" rot="R180"/>
 <instance part="+3V6" gate="G$1" x="38.1" y="-419.1"/>
 <instance part="GND55" gate="1" x="292.1" y="-426.72"/>
 <instance part="C5" gate="G$1" x="284.48" y="-414.02" rot="R90"/>
@@ -22768,18 +22749,34 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <instance part="U$1" gate="G$1" x="134.62" y="-317.5" rot="MR180"/>
 <instance part="U$7" gate="G$1" x="332.74" y="-317.5" rot="MR180"/>
 <instance part="U$8" gate="G$1" x="528.32" y="-317.5" rot="MR180"/>
-<instance part="U$9" gate="G$1" x="233.68" y="-170.18" rot="R90"/>
-<instance part="U$10" gate="G$1" x="535.94" y="-170.18" rot="R90"/>
-<instance part="GND65" gate="1" x="175.26" y="-340.36"/>
+<instance part="U$9" gate="G$1" x="182.88" y="-154.94" rot="MR180"/>
+<instance part="U$10" gate="G$1" x="487.68" y="-154.94" rot="MR180"/>
+<instance part="GND65" gate="1" x="160.02" y="-340.36"/>
+<instance part="D43" gate="D" x="50.8" y="-114.3" rot="R90"/>
+<instance part="D44" gate="D" x="88.9" y="-114.3" rot="R90"/>
+<instance part="D45" gate="D" x="127" y="-114.3" rot="R90"/>
+<instance part="D46" gate="D" x="165.1" y="-114.3" rot="R90"/>
+<instance part="D47" gate="D" x="203.2" y="-114.3" rot="R90"/>
+<instance part="D48" gate="D" x="241.3" y="-114.3" rot="R90"/>
+<instance part="D49" gate="D" x="279.4" y="-114.3" rot="R90"/>
+<instance part="D50" gate="D" x="317.5" y="-114.3" rot="R90"/>
+<instance part="D51" gate="D" x="355.6" y="-114.3" rot="R90"/>
+<instance part="D52" gate="D" x="393.7" y="-114.3" rot="R90"/>
+<instance part="D53" gate="D" x="431.8" y="-114.3" rot="R90"/>
+<instance part="D54" gate="D" x="469.9" y="-114.3" rot="R90"/>
+<instance part="D55" gate="D" x="508" y="-114.3" rot="R90"/>
+<instance part="D56" gate="D" x="546.1" y="-114.3" rot="R90"/>
+<instance part="D57" gate="D" x="584.2" y="-114.3" rot="R90"/>
+<instance part="D58" gate="D" x="622.3" y="-114.3" rot="R90"/>
 </instances>
 <busses>
 <bus name="CLK,LAKI,LABE">
 <segment>
-<wire x1="177.8" y1="-195.58" x2="233.68" y2="-195.58" width="0.762" layer="92"/>
-<wire x1="233.68" y1="-195.58" x2="490.22" y2="-195.58" width="0.762" layer="92"/>
+<wire x1="162.56" y1="-195.58" x2="233.68" y2="-195.58" width="0.762" layer="92"/>
+<wire x1="233.68" y1="-195.58" x2="469.9" y2="-195.58" width="0.762" layer="92"/>
 <wire x1="233.68" y1="-195.58" x2="233.68" y2="-358.14" width="0.762" layer="92"/>
 <wire x1="233.68" y1="-358.14" x2="111.76" y2="-358.14" width="0.762" layer="92"/>
-<wire x1="233.68" y1="-358.14" x2="533.4" y2="-358.14" width="0.762" layer="92"/>
+<wire x1="233.68" y1="-358.14" x2="510.54" y2="-358.14" width="0.762" layer="92"/>
 </segment>
 </bus>
 </busses>
@@ -22792,12 +22789,13 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="45.72" y1="-106.68" x2="50.8" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="-106.68" x2="45.72" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="45.72" y="-106.68"/>
-<pinref part="IC1" gate="SCT2168" pin="OUT0"/>
-<wire x1="172.72" y1="-137.16" x2="172.72" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="-134.62" x2="45.72" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-134.62" x2="45.72" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="C"/>
 <wire x1="45.72" y1="-137.16" x2="45.72" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="45.72" y="-134.62"/>
+<pinref part="U$9" gate="G$1" pin="05_OUT0"/>
+<wire x1="162.56" y1="-134.62" x2="162.56" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-154.94" x2="170.18" y2="-154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -22813,136 +22811,171 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="55.88" y1="-114.3" x2="55.88" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P1" gate="_4" pin="1"/>
 <wire x1="58.42" y1="-114.3" x2="55.88" y2="-114.3" width="0.1524" layer="91"/>
+<pinref part="D43" gate="D" pin="C"/>
+<wire x1="50.8" y1="-111.76" x2="55.88" y2="-111.76" width="0.1524" layer="91"/>
+<junction x="55.88" y="-111.76"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="N$26" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="55.88" y1="-116.84" x2="55.88" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P1" gate="_3" pin="1"/>
 <wire x1="58.42" y1="-116.84" x2="55.88" y2="-116.84" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="SCT2168" pin="GND"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="200.66" y1="-154.94" x2="203.2" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="203.2" y1="-154.94" x2="203.2" y2="-157.48" width="0.1524" layer="91"/>
+<pinref part="D43" gate="D" pin="A"/>
+<wire x1="50.8" y1="-116.84" x2="50.8" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="-119.38" x2="55.88" y2="-119.38" width="0.1524" layer="91"/>
+<junction x="55.88" y="-119.38"/>
 </segment>
 <segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="93.98" y1="-116.84" x2="93.98" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P2" gate="_3" pin="1"/>
 <wire x1="93.98" y1="-116.84" x2="96.52" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="93.98" y="-119.38"/>
+<pinref part="D44" gate="D" pin="A"/>
+<wire x1="88.9" y1="-116.84" x2="88.9" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="-119.38" x2="93.98" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="134.62" y1="-116.84" x2="132.08" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-116.84" x2="132.08" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P3" gate="_3" pin="1"/>
+<junction x="132.08" y="-119.38"/>
+<pinref part="D45" gate="D" pin="A"/>
+<wire x1="127" y1="-116.84" x2="127" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="127" y1="-119.38" x2="132.08" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="172.72" y1="-116.84" x2="170.18" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="-116.84" x2="170.18" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P4" gate="_3" pin="1"/>
+<junction x="170.18" y="-119.38"/>
+<pinref part="D46" gate="D" pin="A"/>
+<wire x1="165.1" y1="-116.84" x2="165.1" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-119.38" x2="170.18" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <wire x1="210.82" y1="-116.84" x2="208.28" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="-116.84" x2="208.28" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P5" gate="_3" pin="1"/>
+<junction x="208.28" y="-119.38"/>
+<pinref part="D47" gate="D" pin="A"/>
+<wire x1="203.2" y1="-116.84" x2="203.2" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-119.38" x2="208.28" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="248.92" y1="-116.84" x2="246.38" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="-116.84" x2="246.38" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P6" gate="_3" pin="1"/>
+<junction x="246.38" y="-119.38"/>
+<pinref part="D48" gate="D" pin="A"/>
+<wire x1="241.3" y1="-116.84" x2="241.3" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="-119.38" x2="246.38" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
 <wire x1="287.02" y1="-116.84" x2="284.48" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="-116.84" x2="284.48" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P7" gate="_3" pin="1"/>
+<junction x="284.48" y="-119.38"/>
+<pinref part="D49" gate="D" pin="A"/>
+<wire x1="279.4" y1="-116.84" x2="279.4" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="-119.38" x2="284.48" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="325.12" y1="-116.84" x2="322.58" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-116.84" x2="322.58" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P8" gate="_3" pin="1"/>
+<junction x="322.58" y="-119.38"/>
+<pinref part="D50" gate="D" pin="A"/>
+<wire x1="317.5" y1="-116.84" x2="317.5" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="-119.38" x2="322.58" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="360.68" y1="-116.84" x2="360.68" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="-116.84" x2="360.68" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P9" gate="_3" pin="1"/>
+<junction x="360.68" y="-119.38"/>
+<pinref part="D51" gate="D" pin="A"/>
+<wire x1="355.6" y1="-116.84" x2="355.6" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-119.38" x2="360.68" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="398.78" y1="-116.84" x2="398.78" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="398.78" y1="-116.84" x2="401.32" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P10" gate="_3" pin="1"/>
+<junction x="398.78" y="-119.38"/>
+<pinref part="D52" gate="D" pin="A"/>
+<wire x1="393.7" y1="-116.84" x2="393.7" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="393.7" y1="-119.38" x2="398.78" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND12" gate="1" pin="GND"/>
 <wire x1="439.42" y1="-116.84" x2="436.88" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="436.88" y1="-116.84" x2="436.88" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P11" gate="_3" pin="1"/>
+<junction x="436.88" y="-119.38"/>
+<pinref part="D53" gate="D" pin="A"/>
+<wire x1="431.8" y1="-116.84" x2="431.8" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="431.8" y1="-119.38" x2="436.88" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="477.52" y1="-116.84" x2="474.98" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="474.98" y1="-116.84" x2="474.98" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P12" gate="_3" pin="1"/>
+<junction x="474.98" y="-119.38"/>
+<pinref part="D54" gate="D" pin="A"/>
+<wire x1="469.9" y1="-116.84" x2="469.9" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="-119.38" x2="474.98" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="515.62" y1="-116.84" x2="513.08" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="513.08" y1="-116.84" x2="513.08" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P13" gate="_3" pin="1"/>
+<junction x="513.08" y="-119.38"/>
+<pinref part="D55" gate="D" pin="A"/>
+<wire x1="508" y1="-116.84" x2="508" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="508" y1="-119.38" x2="513.08" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="553.72" y1="-116.84" x2="551.18" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="551.18" y1="-116.84" x2="551.18" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P14" gate="_3" pin="1"/>
+<junction x="551.18" y="-119.38"/>
+<pinref part="D56" gate="D" pin="A"/>
+<wire x1="546.1" y1="-116.84" x2="546.1" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="546.1" y1="-119.38" x2="551.18" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="591.82" y1="-116.84" x2="589.28" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="589.28" y1="-116.84" x2="589.28" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P15" gate="_3" pin="1"/>
+<junction x="589.28" y="-119.38"/>
+<pinref part="D57" gate="D" pin="A"/>
+<wire x1="584.2" y1="-116.84" x2="584.2" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="584.2" y1="-119.38" x2="589.28" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="629.92" y1="-116.84" x2="627.38" y2="-116.84" width="0.1524" layer="91"/>
 <wire x1="627.38" y1="-116.84" x2="627.38" y2="-119.38" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P16" gate="_3" pin="1"/>
-</segment>
-<segment>
-<pinref part="U$5" gate="SCT2168" pin="GND"/>
-<pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="505.46" y1="-154.94" x2="508" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="508" y1="-154.94" x2="508" y2="-157.48" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="190.5" y1="-185.42" x2="190.5" y2="-187.96" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="SCT2168" pin="!OE"/>
-<wire x1="190.5" y1="-187.96" x2="190.5" y2="-190.5" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="-187.96" x2="182.88" y2="-187.96" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="-187.96" x2="182.88" y2="-172.72" width="0.1524" layer="91"/>
-<junction x="190.5" y="-187.96"/>
-</segment>
-<segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="GND20" gate="1" pin="GND"/>
-<wire x1="495.3" y1="-185.42" x2="495.3" y2="-187.96" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="SCT2168" pin="!OE"/>
-<wire x1="495.3" y1="-187.96" x2="495.3" y2="-190.5" width="0.1524" layer="91"/>
-<wire x1="495.3" y1="-187.96" x2="487.68" y2="-187.96" width="0.1524" layer="91"/>
-<wire x1="487.68" y1="-187.96" x2="487.68" y2="-172.72" width="0.1524" layer="91"/>
-<junction x="495.3" y="-187.96"/>
+<junction x="627.38" y="-119.38"/>
+<pinref part="D58" gate="D" pin="A"/>
+<wire x1="622.3" y1="-116.84" x2="622.3" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="622.3" y1="-119.38" x2="627.38" y2="-119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND24" gate="1" pin="GND"/>
@@ -23087,29 +23120,6 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="459.74" y1="-281.94" x2="459.74" y2="-284.48" width="0.1524" layer="91"/>
 <pinref part="ZOLD_2P7" gate="_1" pin="1"/>
 <wire x1="459.74" y1="-281.94" x2="457.2" y2="-281.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R51" gate="G$1" pin="1"/>
-<pinref part="GND47" gate="1" pin="GND"/>
-<wire x1="538.48" y1="-347.98" x2="538.48" y2="-350.52" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="-350.52" x2="538.48" y2="-353.06" width="0.1524" layer="91"/>
-<wire x1="538.48" y1="-350.52" x2="530.86" y2="-350.52" width="0.1524" layer="91"/>
-<wire x1="530.86" y1="-350.52" x2="530.86" y2="-335.28" width="0.1524" layer="91"/>
-<junction x="538.48" y="-350.52"/>
-</segment>
-<segment>
-<pinref part="R50" gate="G$1" pin="1"/>
-<pinref part="GND46" gate="1" pin="GND"/>
-<wire x1="342.9" y1="-347.98" x2="342.9" y2="-350.52" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="-350.52" x2="342.9" y2="-353.06" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="-350.52" x2="335.28" y2="-350.52" width="0.1524" layer="91"/>
-<wire x1="335.28" y1="-350.52" x2="335.28" y2="-335.28" width="0.1524" layer="91"/>
-<junction x="342.9" y="-350.52"/>
-</segment>
-<segment>
-<pinref part="R49" gate="G$1" pin="1"/>
-<pinref part="GND45" gate="1" pin="GND"/>
-<wire x1="160.02" y1="-347.98" x2="160.02" y2="-350.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="DC1" gate="_GND" pin="1"/>
@@ -23273,14 +23283,78 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="13_!OE!"/>
-<wire x1="152.4" y1="-320.04" x2="175.26" y2="-320.04" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="-320.04" x2="175.26" y2="-337.82" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-320.04" x2="160.02" y2="-320.04" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="-320.04" x2="160.02" y2="-337.82" width="0.1524" layer="91"/>
 <pinref part="GND65" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="01_GND"/>
 <pinref part="GND48" gate="1" pin="GND"/>
-<wire x1="121.92" y1="-327.66" x2="121.92" y2="-332.74" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="-327.66" x2="121.92" y2="-335.28" width="0.1524" layer="91"/>
+<pinref part="R49" gate="G$1" pin="2"/>
+<wire x1="121.92" y1="-335.28" x2="121.92" y2="-337.82" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="-335.28" x2="121.92" y2="-335.28" width="0.1524" layer="91"/>
+<junction x="121.92" y="-335.28"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="01_GND"/>
+<pinref part="GND46" gate="1" pin="GND"/>
+<wire x1="320.04" y1="-327.66" x2="320.04" y2="-335.28" width="0.1524" layer="91"/>
+<pinref part="R50" gate="G$1" pin="2"/>
+<wire x1="320.04" y1="-335.28" x2="320.04" y2="-337.82" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="-335.28" x2="320.04" y2="-335.28" width="0.1524" layer="91"/>
+<junction x="320.04" y="-335.28"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="13_!OE!"/>
+<wire x1="350.52" y1="-320.04" x2="358.14" y2="-320.04" width="0.1524" layer="91"/>
+<pinref part="GND49" gate="1" pin="GND"/>
+<wire x1="358.14" y1="-320.04" x2="358.14" y2="-337.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="01_GND"/>
+<wire x1="515.62" y1="-327.66" x2="515.62" y2="-335.28" width="0.1524" layer="91"/>
+<pinref part="R51" gate="G$1" pin="2"/>
+<wire x1="515.62" y1="-335.28" x2="525.78" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="-335.28" x2="515.62" y2="-337.82" width="0.1524" layer="91"/>
+<pinref part="GND50" gate="1" pin="GND"/>
+<junction x="515.62" y="-335.28"/>
+</segment>
+<segment>
+<pinref part="GND47" gate="1" pin="GND"/>
+<pinref part="U$8" gate="G$1" pin="14_SDO"/>
+<wire x1="551.18" y1="-337.82" x2="551.18" y2="-322.58" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="-322.58" x2="546.1" y2="-322.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="01_GND"/>
+<wire x1="170.18" y1="-165.1" x2="170.18" y2="-172.72" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="170.18" y1="-172.72" x2="170.18" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-172.72" x2="170.18" y2="-172.72" width="0.1524" layer="91"/>
+<junction x="170.18" y="-172.72"/>
+<pinref part="GND19" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="13_!OE!"/>
+<wire x1="200.66" y1="-157.48" x2="208.28" y2="-157.48" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="208.28" y1="-157.48" x2="208.28" y2="-175.26" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="01_GND"/>
+<wire x1="474.98" y1="-165.1" x2="474.98" y2="-172.72" width="0.1524" layer="91"/>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="474.98" y1="-172.72" x2="474.98" y2="-175.26" width="0.1524" layer="91"/>
+<wire x1="485.14" y1="-172.72" x2="474.98" y2="-172.72" width="0.1524" layer="91"/>
+<junction x="474.98" y="-172.72"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="13_!OE!"/>
+<wire x1="505.46" y1="-157.48" x2="513.08" y2="-157.48" width="0.1524" layer="91"/>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="513.08" y1="-157.48" x2="513.08" y2="-175.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -23487,12 +23561,15 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="83.82" y1="-106.68" x2="88.9" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-106.68" x2="83.82" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="83.82" y="-106.68"/>
-<pinref part="IC1" gate="SCT2168" pin="OUT1"/>
 <wire x1="175.26" y1="-137.16" x2="175.26" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="-132.08" x2="83.82" y2="-132.08" width="0.1524" layer="91"/>
 <pinref part="D6" gate="G$1" pin="C"/>
 <wire x1="83.82" y1="-137.16" x2="83.82" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="83.82" y="-132.08"/>
+<wire x1="175.26" y1="-137.16" x2="165.1" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="06_OUT1"/>
+<wire x1="165.1" y1="-137.16" x2="165.1" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-152.4" x2="170.18" y2="-152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -23508,6 +23585,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="93.98" y1="-114.3" x2="93.98" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P2" gate="_4" pin="1"/>
 <wire x1="96.52" y1="-114.3" x2="93.98" y2="-114.3" width="0.1524" layer="91"/>
+<junction x="93.98" y="-111.76"/>
+<pinref part="D44" gate="D" pin="C"/>
+<wire x1="88.9" y1="-111.76" x2="93.98" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -23518,12 +23598,15 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="121.92" y1="-106.68" x2="127" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-106.68" x2="121.92" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="121.92" y="-106.68"/>
-<pinref part="IC1" gate="SCT2168" pin="OUT2"/>
-<wire x1="177.8" y1="-137.16" x2="177.8" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="-139.7" x2="177.8" y2="-129.54" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="-129.54" x2="121.92" y2="-129.54" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="C"/>
 <wire x1="121.92" y1="-137.16" x2="121.92" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="121.92" y="-129.54"/>
+<wire x1="177.8" y1="-139.7" x2="167.64" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="07_OUT2"/>
+<wire x1="167.64" y1="-139.7" x2="167.64" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="-149.86" x2="170.18" y2="-149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -23539,6 +23622,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="134.62" y1="-114.3" x2="132.08" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="-114.3" x2="132.08" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P3" gate="_4" pin="1"/>
+<junction x="132.08" y="-111.76"/>
+<pinref part="D45" gate="D" pin="C"/>
+<wire x1="127" y1="-111.76" x2="132.08" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -23549,12 +23635,14 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="160.02" y1="-106.68" x2="165.1" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="-106.68" x2="160.02" y2="-127" width="0.1524" layer="91"/>
 <junction x="160.02" y="-106.68"/>
-<pinref part="IC1" gate="SCT2168" pin="OUT3"/>
-<wire x1="180.34" y1="-137.16" x2="180.34" y2="-127" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="-142.24" x2="180.34" y2="-127" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="-127" x2="160.02" y2="-127" width="0.1524" layer="91"/>
 <pinref part="D8" gate="G$1" pin="C"/>
 <wire x1="160.02" y1="-137.16" x2="160.02" y2="-127" width="0.1524" layer="91"/>
 <junction x="160.02" y="-127"/>
+<pinref part="U$9" gate="G$1" pin="08_OUT3"/>
+<wire x1="170.18" y1="-147.32" x2="170.18" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="-142.24" x2="180.34" y2="-142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -23570,6 +23658,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="172.72" y1="-114.3" x2="170.18" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="170.18" y1="-114.3" x2="170.18" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P4" gate="_4" pin="1"/>
+<junction x="170.18" y="-111.76"/>
+<pinref part="D46" gate="D" pin="C"/>
+<wire x1="165.1" y1="-111.76" x2="170.18" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -23580,12 +23671,15 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="198.12" y1="-106.68" x2="203.2" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="-106.68" x2="198.12" y2="-127" width="0.1524" layer="91"/>
 <junction x="198.12" y="-106.68"/>
-<pinref part="IC1" gate="SCT2168" pin="OUT4"/>
-<wire x1="182.88" y1="-137.16" x2="182.88" y2="-127" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="-142.24" x2="182.88" y2="-127" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="-127" x2="198.12" y2="-127" width="0.1524" layer="91"/>
 <pinref part="D9" gate="G$1" pin="C"/>
-<wire x1="198.12" y1="-137.16" x2="198.12" y2="-127" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="-137.16" x2="210.82" y2="-127" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="-127" x2="198.12" y2="-127" width="0.1524" layer="91"/>
 <junction x="198.12" y="-127"/>
+<wire x1="182.88" y1="-142.24" x2="200.66" y2="-142.24" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="09_OUT4"/>
+<wire x1="200.66" y1="-142.24" x2="200.66" y2="-147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -23601,6 +23695,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="210.82" y1="-114.3" x2="208.28" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="-114.3" x2="208.28" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P5" gate="_4" pin="1"/>
+<junction x="208.28" y="-111.76"/>
+<pinref part="D47" gate="D" pin="C"/>
+<wire x1="203.2" y1="-111.76" x2="208.28" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -23611,12 +23708,15 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="236.22" y1="-106.68" x2="241.3" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="-106.68" x2="236.22" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="236.22" y="-106.68"/>
-<pinref part="IC1" gate="SCT2168" pin="OUT5"/>
-<wire x1="185.42" y1="-137.16" x2="185.42" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="-139.7" x2="185.42" y2="-129.54" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="-129.54" x2="236.22" y2="-129.54" width="0.1524" layer="91"/>
 <pinref part="D10" gate="G$1" pin="C"/>
 <wire x1="236.22" y1="-137.16" x2="236.22" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="236.22" y="-129.54"/>
+<wire x1="185.42" y1="-139.7" x2="203.2" y2="-139.7" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-139.7" x2="203.2" y2="-149.86" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="10_OUT5"/>
+<wire x1="203.2" y1="-149.86" x2="200.66" y2="-149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -23632,6 +23732,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="248.92" y1="-114.3" x2="246.38" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="-114.3" x2="246.38" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P6" gate="_4" pin="1"/>
+<junction x="246.38" y="-111.76"/>
+<pinref part="D48" gate="D" pin="C"/>
+<wire x1="241.3" y1="-111.76" x2="246.38" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -23642,12 +23745,15 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="274.32" y1="-106.68" x2="279.4" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="-106.68" x2="274.32" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="274.32" y="-106.68"/>
-<pinref part="IC1" gate="SCT2168" pin="OUT6"/>
 <wire x1="187.96" y1="-137.16" x2="187.96" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="-132.08" x2="274.32" y2="-132.08" width="0.1524" layer="91"/>
 <pinref part="D11" gate="G$1" pin="C"/>
 <wire x1="274.32" y1="-137.16" x2="274.32" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="274.32" y="-132.08"/>
+<wire x1="187.96" y1="-137.16" x2="205.74" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="11_OUT6"/>
+<wire x1="205.74" y1="-137.16" x2="205.74" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-152.4" x2="200.66" y2="-152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -23663,6 +23769,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="287.02" y1="-114.3" x2="284.48" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="284.48" y1="-114.3" x2="284.48" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P7" gate="_4" pin="1"/>
+<junction x="284.48" y="-111.76"/>
+<pinref part="D49" gate="D" pin="C"/>
+<wire x1="279.4" y1="-111.76" x2="284.48" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
@@ -23673,12 +23782,13 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="312.42" y1="-106.68" x2="317.5" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="-106.68" x2="312.42" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="312.42" y="-106.68"/>
-<pinref part="IC1" gate="SCT2168" pin="OUT7"/>
-<wire x1="190.5" y1="-137.16" x2="190.5" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="-134.62" x2="312.42" y2="-134.62" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-134.62" x2="312.42" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="D12" gate="G$1" pin="C"/>
 <wire x1="312.42" y1="-137.16" x2="312.42" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="312.42" y="-134.62"/>
+<pinref part="U$9" gate="G$1" pin="12_OUT7"/>
+<wire x1="208.28" y1="-134.62" x2="208.28" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="-154.94" x2="200.66" y2="-154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
@@ -23694,6 +23804,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="325.12" y1="-114.3" x2="322.58" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="-114.3" x2="322.58" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P8" gate="_4" pin="1"/>
+<junction x="322.58" y="-111.76"/>
+<pinref part="D50" gate="D" pin="C"/>
+<wire x1="317.5" y1="-111.76" x2="322.58" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
@@ -23704,12 +23817,13 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="350.52" y1="-106.68" x2="355.6" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="350.52" y1="-106.68" x2="350.52" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="350.52" y="-106.68"/>
-<wire x1="477.52" y1="-137.16" x2="477.52" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="477.52" y1="-134.62" x2="350.52" y2="-134.62" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="SCT2168" pin="OUT0"/>
+<wire x1="467.36" y1="-134.62" x2="350.52" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="D13" gate="G$1" pin="C"/>
 <wire x1="350.52" y1="-137.16" x2="350.52" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="350.52" y="-134.62"/>
+<pinref part="U$10" gate="G$1" pin="05_OUT0"/>
+<wire x1="467.36" y1="-134.62" x2="467.36" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="467.36" y1="-154.94" x2="474.98" y2="-154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
@@ -23725,6 +23839,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="360.68" y1="-114.3" x2="360.68" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="-114.3" x2="360.68" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P9" gate="_4" pin="1"/>
+<junction x="360.68" y="-111.76"/>
+<pinref part="D51" gate="D" pin="C"/>
+<wire x1="355.6" y1="-111.76" x2="360.68" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$36" class="0">
@@ -23737,10 +23854,13 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <junction x="388.62" y="-106.68"/>
 <wire x1="480.06" y1="-137.16" x2="480.06" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="480.06" y1="-132.08" x2="388.62" y2="-132.08" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="SCT2168" pin="OUT1"/>
 <pinref part="D14" gate="G$1" pin="C"/>
 <wire x1="388.62" y1="-137.16" x2="388.62" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="388.62" y="-132.08"/>
+<wire x1="480.06" y1="-137.16" x2="469.9" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="06_OUT1"/>
+<wire x1="469.9" y1="-137.16" x2="469.9" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="-152.4" x2="474.98" y2="-152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$37" class="0">
@@ -23756,6 +23876,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="398.78" y1="-114.3" x2="398.78" y2="-111.76" width="0.1524" layer="91"/>
 <wire x1="401.32" y1="-114.3" x2="398.78" y2="-114.3" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P10" gate="_4" pin="1"/>
+<junction x="398.78" y="-111.76"/>
+<pinref part="D52" gate="D" pin="C"/>
+<wire x1="393.7" y1="-111.76" x2="398.78" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$39" class="0">
@@ -23766,12 +23889,15 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="426.72" y1="-106.68" x2="431.8" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="426.72" y1="-106.68" x2="426.72" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="426.72" y="-106.68"/>
-<wire x1="482.6" y1="-137.16" x2="482.6" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="482.6" y1="-139.7" x2="482.6" y2="-129.54" width="0.1524" layer="91"/>
 <wire x1="482.6" y1="-129.54" x2="426.72" y2="-129.54" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="SCT2168" pin="OUT2"/>
 <pinref part="D15" gate="G$1" pin="C"/>
 <wire x1="426.72" y1="-137.16" x2="426.72" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="426.72" y="-129.54"/>
+<wire x1="482.6" y1="-139.7" x2="472.44" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="07_OUT2"/>
+<wire x1="472.44" y1="-139.7" x2="472.44" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="472.44" y1="-149.86" x2="474.98" y2="-149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -23787,6 +23913,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="439.42" y1="-114.3" x2="436.88" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="436.88" y1="-114.3" x2="436.88" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P11" gate="_4" pin="1"/>
+<junction x="436.88" y="-111.76"/>
+<pinref part="D53" gate="D" pin="C"/>
+<wire x1="431.8" y1="-111.76" x2="436.88" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$42" class="0">
@@ -23797,12 +23926,14 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="464.82" y1="-106.68" x2="469.9" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="-106.68" x2="464.82" y2="-127" width="0.1524" layer="91"/>
 <junction x="464.82" y="-106.68"/>
-<wire x1="485.14" y1="-137.16" x2="485.14" y2="-127" width="0.1524" layer="91"/>
+<wire x1="485.14" y1="-142.24" x2="485.14" y2="-127" width="0.1524" layer="91"/>
 <wire x1="485.14" y1="-127" x2="464.82" y2="-127" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="SCT2168" pin="OUT3"/>
 <pinref part="D16" gate="G$1" pin="C"/>
 <wire x1="464.82" y1="-137.16" x2="464.82" y2="-127" width="0.1524" layer="91"/>
 <junction x="464.82" y="-127"/>
+<pinref part="U$10" gate="G$1" pin="08_OUT3"/>
+<wire x1="474.98" y1="-147.32" x2="474.98" y2="-142.24" width="0.1524" layer="91"/>
+<wire x1="474.98" y1="-142.24" x2="485.14" y2="-142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -23818,6 +23949,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="477.52" y1="-114.3" x2="474.98" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="474.98" y1="-114.3" x2="474.98" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P12" gate="_4" pin="1"/>
+<junction x="474.98" y="-111.76"/>
+<pinref part="D54" gate="D" pin="C"/>
+<wire x1="469.9" y1="-111.76" x2="474.98" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -23828,12 +23962,15 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="502.92" y1="-106.68" x2="508" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="502.92" y1="-106.68" x2="502.92" y2="-127" width="0.1524" layer="91"/>
 <junction x="502.92" y="-106.68"/>
-<wire x1="487.68" y1="-137.16" x2="487.68" y2="-127" width="0.1524" layer="91"/>
+<wire x1="487.68" y1="-142.24" x2="487.68" y2="-127" width="0.1524" layer="91"/>
 <wire x1="487.68" y1="-127" x2="502.92" y2="-127" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="SCT2168" pin="OUT4"/>
 <pinref part="D17" gate="G$1" pin="C"/>
-<wire x1="502.92" y1="-137.16" x2="502.92" y2="-127" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="-137.16" x2="515.62" y2="-127" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="-127" x2="502.92" y2="-127" width="0.1524" layer="91"/>
 <junction x="502.92" y="-127"/>
+<wire x1="487.68" y1="-142.24" x2="505.46" y2="-142.24" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="09_OUT4"/>
+<wire x1="505.46" y1="-142.24" x2="505.46" y2="-147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
@@ -23849,6 +23986,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="515.62" y1="-114.3" x2="513.08" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="513.08" y1="-114.3" x2="513.08" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P13" gate="_4" pin="1"/>
+<junction x="513.08" y="-111.76"/>
+<pinref part="D55" gate="D" pin="C"/>
+<wire x1="508" y1="-111.76" x2="513.08" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$48" class="0">
@@ -23859,12 +23999,15 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="541.02" y1="-106.68" x2="546.1" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="541.02" y1="-106.68" x2="541.02" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="541.02" y="-106.68"/>
-<wire x1="490.22" y1="-137.16" x2="490.22" y2="-129.54" width="0.1524" layer="91"/>
+<wire x1="490.22" y1="-139.7" x2="490.22" y2="-129.54" width="0.1524" layer="91"/>
 <wire x1="490.22" y1="-129.54" x2="541.02" y2="-129.54" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="SCT2168" pin="OUT5"/>
 <pinref part="D18" gate="G$1" pin="C"/>
 <wire x1="541.02" y1="-137.16" x2="541.02" y2="-129.54" width="0.1524" layer="91"/>
 <junction x="541.02" y="-129.54"/>
+<wire x1="490.22" y1="-139.7" x2="508" y2="-139.7" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="10_OUT5"/>
+<wire x1="508" y1="-139.7" x2="508" y2="-149.86" width="0.1524" layer="91"/>
+<wire x1="508" y1="-149.86" x2="505.46" y2="-149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$49" class="0">
@@ -23880,6 +24023,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="553.72" y1="-114.3" x2="551.18" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="551.18" y1="-114.3" x2="551.18" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P14" gate="_4" pin="1"/>
+<junction x="551.18" y="-111.76"/>
+<pinref part="D56" gate="D" pin="C"/>
+<wire x1="546.1" y1="-111.76" x2="551.18" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$51" class="0">
@@ -23892,10 +24038,13 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <junction x="579.12" y="-106.68"/>
 <wire x1="492.76" y1="-137.16" x2="492.76" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="492.76" y1="-132.08" x2="579.12" y2="-132.08" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="SCT2168" pin="OUT6"/>
 <pinref part="D19" gate="G$1" pin="C"/>
 <wire x1="579.12" y1="-137.16" x2="579.12" y2="-132.08" width="0.1524" layer="91"/>
 <junction x="579.12" y="-132.08"/>
+<wire x1="492.76" y1="-137.16" x2="510.54" y2="-137.16" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="11_OUT6"/>
+<wire x1="510.54" y1="-137.16" x2="510.54" y2="-152.4" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="-152.4" x2="505.46" y2="-152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$52" class="0">
@@ -23911,6 +24060,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="591.82" y1="-114.3" x2="589.28" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="589.28" y1="-114.3" x2="589.28" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P15" gate="_4" pin="1"/>
+<junction x="589.28" y="-111.76"/>
+<pinref part="D57" gate="D" pin="C"/>
+<wire x1="584.2" y1="-111.76" x2="589.28" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
@@ -23921,12 +24073,13 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="617.22" y1="-106.68" x2="622.3" y2="-106.68" width="0.1524" layer="91"/>
 <wire x1="617.22" y1="-106.68" x2="617.22" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="617.22" y="-106.68"/>
-<wire x1="495.3" y1="-137.16" x2="495.3" y2="-134.62" width="0.1524" layer="91"/>
-<wire x1="495.3" y1="-134.62" x2="617.22" y2="-134.62" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="SCT2168" pin="OUT7"/>
+<wire x1="513.08" y1="-134.62" x2="617.22" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="D20" gate="G$1" pin="C"/>
 <wire x1="617.22" y1="-137.16" x2="617.22" y2="-134.62" width="0.1524" layer="91"/>
 <junction x="617.22" y="-134.62"/>
+<pinref part="U$10" gate="G$1" pin="12_OUT7"/>
+<wire x1="513.08" y1="-134.62" x2="513.08" y2="-154.94" width="0.1524" layer="91"/>
+<wire x1="513.08" y1="-154.94" x2="505.46" y2="-154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$55" class="0">
@@ -23942,32 +24095,23 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="629.92" y1="-114.3" x2="627.38" y2="-114.3" width="0.1524" layer="91"/>
 <wire x1="627.38" y1="-114.3" x2="627.38" y2="-111.76" width="0.1524" layer="91"/>
 <pinref part="ZOLD_4P16" gate="_4" pin="1"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="IC1" gate="SCT2168" pin="REXT"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="190.5" y1="-172.72" x2="190.5" y2="-175.26" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="U$5" gate="SCT2168" pin="REXT"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<wire x1="495.3" y1="-172.72" x2="495.3" y2="-175.26" width="0.1524" layer="91"/>
+<junction x="627.38" y="-111.76"/>
+<pinref part="D58" gate="D" pin="C"/>
+<wire x1="622.3" y1="-111.76" x2="627.38" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CLK" class="0">
 <segment>
-<pinref part="U$5" gate="SCT2168" pin="CLK"/>
-<wire x1="482.6" y1="-172.72" x2="482.6" y2="-195.58" width="0.1524" layer="91"/>
+<wire x1="469.9" y1="-160.02" x2="469.9" y2="-195.58" width="0.1524" layer="91"/>
 <label x="482.6" y="-193.04" size="1.27" layer="95" rot="R90"/>
+<pinref part="U$10" gate="G$1" pin="03_CLK"/>
+<wire x1="469.9" y1="-160.02" x2="474.98" y2="-160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="SCT2168" pin="CLK"/>
-<wire x1="177.8" y1="-172.72" x2="177.8" y2="-195.58" width="0.1524" layer="91"/>
-<label x="177.8" y="-193.04" size="1.27" layer="95" rot="R90"/>
+<label x="165.1" y="-187.96" size="1.27" layer="95" rot="R90"/>
+<pinref part="U$9" gate="G$1" pin="03_CLK"/>
+<wire x1="165.1" y1="-195.58" x2="165.1" y2="-160.02" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="-160.02" x2="170.18" y2="-160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="116.84" y1="-322.58" x2="116.84" y2="-358.14" width="0.1524" layer="91"/>
@@ -23976,12 +24120,16 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="116.84" y1="-322.58" x2="121.92" y2="-322.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="330.2" y1="-335.28" x2="330.2" y2="-358.14" width="0.1524" layer="91"/>
-<label x="330.2" y="-355.6" size="1.27" layer="95" rot="R90"/>
+<wire x1="312.42" y1="-322.58" x2="312.42" y2="-358.14" width="0.1524" layer="91"/>
+<label x="312.42" y="-350.52" size="1.27" layer="95" rot="R90"/>
+<pinref part="U$7" gate="G$1" pin="03_CLK"/>
+<wire x1="312.42" y1="-322.58" x2="320.04" y2="-322.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="525.78" y1="-335.28" x2="525.78" y2="-358.14" width="0.1524" layer="91"/>
-<label x="525.78" y="-355.6" size="1.27" layer="95" rot="R90"/>
+<wire x1="510.54" y1="-322.58" x2="510.54" y2="-358.14" width="0.1524" layer="91"/>
+<label x="510.54" y="-353.06" size="1.27" layer="95" rot="R90"/>
+<pinref part="U$8" gate="G$1" pin="03_CLK"/>
+<wire x1="510.54" y1="-322.58" x2="515.62" y2="-322.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="CVREF/AN10/C3INB/RPB14/VBUSON/SCK1/CTED5/RB14"/>
@@ -23992,11 +24140,13 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="IC1" gate="SCT2168" pin="SDO"/>
-<wire x1="175.26" y1="-172.72" x2="175.26" y2="-198.12" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="SCT2168" pin="SDI"/>
-<wire x1="175.26" y1="-198.12" x2="477.52" y2="-198.12" width="0.1524" layer="91"/>
-<wire x1="477.52" y1="-198.12" x2="477.52" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-160.02" x2="205.74" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="-198.12" x2="472.44" y2="-198.12" width="0.1524" layer="91"/>
+<wire x1="472.44" y1="-198.12" x2="472.44" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="U$9" gate="G$1" pin="14_SDO"/>
+<wire x1="200.66" y1="-160.02" x2="205.74" y2="-160.02" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="02_SDI"/>
+<wire x1="474.98" y1="-162.56" x2="472.44" y2="-162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$29" class="0">
@@ -24388,10 +24538,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="160.02" y1="-144.78" x2="160.02" y2="-200.66" width="0.1524" layer="91"/>
 <junction x="160.02" y="-144.78"/>
 <pinref part="D9" gate="G$1" pin="A"/>
-<wire x1="198.12" y1="-142.24" x2="198.12" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="-142.24" x2="210.82" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="D16" gate="G$1" pin="A"/>
-<wire x1="198.12" y1="-144.78" x2="208.28" y2="-144.78" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="-144.78" x2="236.22" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="-144.78" x2="236.22" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="-144.78" x2="274.32" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="274.32" y1="-144.78" x2="312.42" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="312.42" y1="-144.78" x2="350.52" y2="-144.78" width="0.1524" layer="91"/>
@@ -24420,9 +24569,8 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="464.82" y1="-144.78" x2="464.82" y2="-200.66" width="0.1524" layer="91"/>
 <junction x="464.82" y="-144.78"/>
 <pinref part="D17" gate="G$1" pin="A"/>
-<wire x1="502.92" y1="-142.24" x2="502.92" y2="-144.78" width="0.1524" layer="91"/>
+<wire x1="515.62" y1="-142.24" x2="515.62" y2="-144.78" width="0.1524" layer="91"/>
 <pinref part="D20" gate="G$1" pin="A"/>
-<wire x1="502.92" y1="-144.78" x2="515.62" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="515.62" y1="-144.78" x2="541.02" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="541.02" y1="-144.78" x2="579.12" y2="-144.78" width="0.1524" layer="91"/>
 <wire x1="579.12" y1="-144.78" x2="617.22" y2="-144.78" width="0.1524" layer="91"/>
@@ -24436,9 +24584,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="464.82" y1="-200.66" x2="515.62" y2="-200.66" width="0.1524" layer="91"/>
 <wire x1="515.62" y1="-200.66" x2="515.62" y2="-144.78" width="0.1524" layer="91"/>
 <junction x="515.62" y="-144.78"/>
-<wire x1="160.02" y1="-200.66" x2="208.28" y2="-200.66" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="-200.66" x2="208.28" y2="-144.78" width="0.1524" layer="91"/>
-<junction x="208.28" y="-144.78"/>
+<wire x1="160.02" y1="-200.66" x2="210.82" y2="-200.66" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="-200.66" x2="210.82" y2="-144.78" width="0.1524" layer="91"/>
+<junction x="210.82" y="-144.78"/>
 <wire x1="617.22" y1="-144.78" x2="617.22" y2="-160.02" width="0.1524" layer="91"/>
 <junction x="617.22" y="-144.78"/>
 <wire x1="617.22" y1="-160.02" x2="642.62" y2="-160.02" width="0.1524" layer="91"/>
@@ -24895,52 +25043,39 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="515.62" y1="-304.8" x2="528.32" y2="-304.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$131" class="0">
-<segment>
-<pinref part="R51" gate="G$1" pin="2"/>
-<wire x1="538.48" y1="-335.28" x2="538.48" y2="-337.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$132" class="0">
-<segment>
-<pinref part="R50" gate="G$1" pin="2"/>
-<wire x1="342.9" y1="-335.28" x2="342.9" y2="-337.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$133" class="0">
-<segment>
-<pinref part="R49" gate="G$1" pin="2"/>
-<wire x1="160.02" y1="-325.12" x2="160.02" y2="-337.82" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="15_REXT"/>
-<wire x1="152.4" y1="-325.12" x2="160.02" y2="-325.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$134" class="0">
 <segment>
-<pinref part="U$5" gate="SCT2168" pin="SDO"/>
-<wire x1="480.06" y1="-172.72" x2="480.06" y2="-203.2" width="0.1524" layer="91"/>
-<wire x1="480.06" y1="-203.2" x2="40.64" y2="-203.2" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="-160.02" x2="510.54" y2="-203.2" width="0.1524" layer="91"/>
+<wire x1="510.54" y1="-203.2" x2="40.64" y2="-203.2" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-203.2" x2="40.64" y2="-337.82" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-337.82" x2="104.14" y2="-337.82" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="-337.82" x2="104.14" y2="-325.12" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="02_SDI"/>
 <wire x1="104.14" y1="-325.12" x2="121.92" y2="-325.12" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="14_SDO"/>
+<wire x1="505.46" y1="-160.02" x2="510.54" y2="-160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$135" class="0">
 <segment>
-<wire x1="170.18" y1="-322.58" x2="170.18" y2="-360.68" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="-360.68" x2="325.12" y2="-360.68" width="0.1524" layer="91"/>
-<wire x1="325.12" y1="-360.68" x2="325.12" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-322.58" x2="157.48" y2="-360.68" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-360.68" x2="317.5" y2="-360.68" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="-360.68" x2="317.5" y2="-325.12" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="14_SDO"/>
-<wire x1="170.18" y1="-322.58" x2="152.4" y2="-322.58" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="-322.58" x2="152.4" y2="-322.58" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="02_SDI"/>
+<wire x1="317.5" y1="-325.12" x2="320.04" y2="-325.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$136" class="0">
 <segment>
-<wire x1="327.66" y1="-335.28" x2="327.66" y2="-360.68" width="0.1524" layer="91"/>
-<wire x1="327.66" y1="-360.68" x2="520.7" y2="-360.68" width="0.1524" layer="91"/>
-<wire x1="520.7" y1="-360.68" x2="520.7" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-322.58" x2="355.6" y2="-360.68" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="-360.68" x2="513.08" y2="-360.68" width="0.1524" layer="91"/>
+<wire x1="513.08" y1="-360.68" x2="513.08" y2="-325.12" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="02_SDI"/>
+<wire x1="513.08" y1="-325.12" x2="515.62" y2="-325.12" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="14_SDO"/>
+<wire x1="350.52" y1="-322.58" x2="355.6" y2="-322.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LABE" class="0">
@@ -24951,12 +25086,16 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <wire x1="111.76" y1="-320.04" x2="121.92" y2="-320.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="337.82" y1="-335.28" x2="337.82" y2="-358.14" width="0.1524" layer="91"/>
-<label x="337.82" y="-355.6" size="1.27" layer="95" rot="R90"/>
+<wire x1="309.88" y1="-320.04" x2="309.88" y2="-358.14" width="0.1524" layer="91"/>
+<label x="309.88" y="-350.52" size="1.27" layer="95" rot="R90"/>
+<pinref part="U$7" gate="G$1" pin="04_!LA!"/>
+<wire x1="309.88" y1="-320.04" x2="320.04" y2="-320.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="533.4" y1="-335.28" x2="533.4" y2="-358.14" width="0.1524" layer="91"/>
-<label x="533.4" y="-355.6" size="1.27" layer="95" rot="R90"/>
+<wire x1="508" y1="-320.04" x2="508" y2="-358.14" width="0.1524" layer="91"/>
+<label x="508" y="-353.06" size="1.27" layer="95" rot="R90"/>
+<pinref part="U$8" gate="G$1" pin="04_!LA!"/>
+<wire x1="508" y1="-320.04" x2="515.62" y2="-320.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="TDI/RPB7/CTED3/PMD5/INT0/RB7"/>
@@ -24967,14 +25106,16 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 </net>
 <net name="LAKI" class="0">
 <segment>
-<pinref part="U$5" gate="SCT2168" pin="!LA"/>
-<wire x1="490.22" y1="-172.72" x2="490.22" y2="-195.58" width="0.1524" layer="91"/>
-<label x="490.22" y="-193.04" size="1.27" layer="95" rot="R90"/>
+<wire x1="467.36" y1="-157.48" x2="467.36" y2="-195.58" width="0.1524" layer="91"/>
+<label x="467.36" y="-193.04" size="1.27" layer="95" rot="R90"/>
+<pinref part="U$10" gate="G$1" pin="04_!LA!"/>
+<wire x1="467.36" y1="-157.48" x2="474.98" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="SCT2168" pin="!LA"/>
-<wire x1="185.42" y1="-172.72" x2="185.42" y2="-195.58" width="0.1524" layer="91"/>
-<label x="185.42" y="-193.04" size="1.27" layer="95" rot="R90"/>
+<label x="162.56" y="-187.96" size="1.27" layer="95" rot="R90"/>
+<pinref part="U$9" gate="G$1" pin="04_!LA!"/>
+<wire x1="162.56" y1="-195.58" x2="162.56" y2="-157.48" width="0.1524" layer="91"/>
+<wire x1="162.56" y1="-157.48" x2="170.18" y2="-157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="AN9/C3INA/RPB15/SCK2/CTED6/PMCS1/RB15"/>
@@ -25345,18 +25486,6 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="IC1" gate="SCT2168" pin="VDD"/>
-<wire x1="165.1" y1="-154.94" x2="162.56" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="-154.94" x2="162.56" y2="-152.4" width="0.1524" layer="91"/>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="U$5" gate="SCT2168" pin="VDD"/>
-<wire x1="469.9" y1="-154.94" x2="467.36" y2="-154.94" width="0.1524" layer="91"/>
-<wire x1="467.36" y1="-154.94" x2="467.36" y2="-152.4" width="0.1524" layer="91"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="VDD"/>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
 <wire x1="119.38" y1="-424.18" x2="38.1" y2="-424.18" width="0.1524" layer="91"/>
@@ -25416,7 +25545,27 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <segment>
 <pinref part="U$1" gate="G$1" pin="16_VDD"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<wire x1="152.4" y1="-327.66" x2="152.4" y2="-332.74" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="-327.66" x2="152.4" y2="-337.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$7" gate="G$1" pin="16_VDD"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+<wire x1="350.52" y1="-327.66" x2="350.52" y2="-337.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$8" gate="G$1" pin="16_VDD"/>
+<wire x1="546.1" y1="-327.66" x2="546.1" y2="-337.82" width="0.1524" layer="91"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="16_VDD"/>
+<wire x1="200.66" y1="-165.1" x2="200.66" y2="-175.26" width="0.1524" layer="91"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="16_VDD"/>
+<wire x1="505.46" y1="-165.1" x2="505.46" y2="-175.26" width="0.1524" layer="91"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="N$142" class="0">
@@ -25457,10 +25606,10 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <label x="264.16" y="-403.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="SCT2168" pin="SDI"/>
-<wire x1="172.72" y1="-172.72" x2="172.72" y2="-177.8" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="-177.8" x2="170.18" y2="-177.8" width="0.1524" layer="91"/>
-<label x="170.18" y="-177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="167.64" y1="-162.56" x2="167.64" y2="-187.96" width="0.1524" layer="91"/>
+<label x="167.64" y="-187.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$9" gate="G$1" pin="02_SDI"/>
+<wire x1="167.64" y1="-162.56" x2="170.18" y2="-162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -25695,9 +25844,11 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 </net>
 <net name="CHECK" class="0">
 <segment>
-<wire x1="523.24" y1="-335.28" x2="523.24" y2="-360.68" width="0.1524" layer="91"/>
-<wire x1="523.24" y1="-360.68" x2="543.56" y2="-360.68" width="0.1524" layer="91"/>
+<wire x1="553.72" y1="-320.04" x2="553.72" y2="-360.68" width="0.1524" layer="91"/>
+<wire x1="553.72" y1="-360.68" x2="543.56" y2="-360.68" width="0.1524" layer="91"/>
 <label x="543.56" y="-360.68" size="1.27" layer="95" xref="yes"/>
+<pinref part="U$8" gate="G$1" pin="13_!OE!"/>
+<wire x1="546.1" y1="-320.04" x2="553.72" y2="-320.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PGEC1/AN3/C1INC/C2INA/RPB1/CTED12/PMD1/RB1"/>
@@ -25826,6 +25977,51 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <pinref part="OK4" gate="B" pin="EMIT"/>
 <wire x1="304.8" y1="-246.38" x2="327.66" y2="-246.38" width="0.1524" layer="91"/>
 <wire x1="327.66" y1="-299.72" x2="327.66" y2="-246.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="R49" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="-335.28" x2="154.94" y2="-335.28" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="15_REXT"/>
+<wire x1="154.94" y1="-335.28" x2="154.94" y2="-325.12" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="-325.12" x2="152.4" y2="-325.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$102" class="0">
+<segment>
+<pinref part="R50" gate="G$1" pin="1"/>
+<wire x1="340.36" y1="-335.28" x2="353.06" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="353.06" y1="-335.28" x2="353.06" y2="-325.12" width="0.1524" layer="91"/>
+<pinref part="U$7" gate="G$1" pin="15_REXT"/>
+<wire x1="353.06" y1="-325.12" x2="350.52" y2="-325.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$132" class="0">
+<segment>
+<pinref part="R51" gate="G$1" pin="1"/>
+<wire x1="548.64" y1="-335.28" x2="535.94" y2="-335.28" width="0.1524" layer="91"/>
+<wire x1="548.64" y1="-335.28" x2="548.64" y2="-325.12" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="15_REXT"/>
+<wire x1="548.64" y1="-325.12" x2="546.1" y2="-325.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$156" class="0">
+<segment>
+<pinref part="U$9" gate="G$1" pin="15_REXT"/>
+<wire x1="200.66" y1="-162.56" x2="203.2" y2="-162.56" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="-162.56" x2="203.2" y2="-172.72" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="-172.72" x2="190.5" y2="-172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$171" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<wire x1="495.3" y1="-172.72" x2="508" y2="-172.72" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="15_REXT"/>
+<wire x1="508" y1="-172.72" x2="508" y2="-162.56" width="0.1524" layer="91"/>
+<wire x1="508" y1="-162.56" x2="505.46" y2="-162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -26144,28 +26340,6 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <approved hash="104,1,261.62,-406.4,U2,VUSB3V3,+3V3,,,"/>
 <approved hash="104,1,261.62,-396.24,U2,AVSS,GND,,,"/>
 <approved hash="104,1,261.62,-393.7,U2,AVDD,+3V3,,,"/>
-<approved hash="115,1,189.505,-180.34,R17,,,,,"/>
-<approved hash="115,1,494.305,-180.34,R18,,,,,"/>
-<approved hash="115,1,143.785,-342.9,R49,,,,,"/>
-<approved hash="115,1,341.905,-342.9,R50,,,,,"/>
-<approved hash="115,1,537.485,-342.9,R51,,,,,"/>
-<approved hash="115,2,10.4817,21.6245,POWER_LED,,,,,"/>
-<approved hash="115,2,35.8817,23.8916,OVERLOAD_LED,,,,,"/>
-<approved hash="115,2,51.1217,19.2948,RX1_LED,,,,,"/>
-<approved hash="115,2,58.7417,19.152,TX1_LED,,,,,"/>
-<approved hash="115,2,84.1417,19.2948,RX2_LED,,,,,"/>
-<approved hash="115,2,91.7617,19.152,TX2_LED,,,,,"/>
-<approved hash="115,2,49.8052,30.48,R59,,,,,"/>
-<approved hash="115,2,57.4252,30.48,R60,,,,,"/>
-<approved hash="115,2,82.8252,30.48,R61,,,,,"/>
-<approved hash="115,2,90.4452,30.48,R62,,,,,"/>
-<approved hash="115,2,34.5652,30.48,R63,,,,,"/>
-<approved hash="115,2,9.16517,30.48,R64,,,,,"/>
-<approved hash="115,2,55.88,87.4353,SV2,,,,,"/>
-<approved hash="115,2,96.4777,101.795,SV3,,,,,"/>
-<approved hash="115,2,109.178,101.795,SV4,,,,,"/>
-<approved hash="115,2,124.418,101.795,SV5,,,,,"/>
-<approved hash="115,2,137.118,101.795,SV6,,,,,"/>
 </errors>
 </schematic>
 </drawing>
