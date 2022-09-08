@@ -21961,7 +21961,7 @@ http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;name=A24734CT-ND
 <part name="D18" library="microbuilder" deviceset="DIODE" device="SOD-323" value="1N4148"/>
 <part name="D19" library="microbuilder" deviceset="DIODE" device="SOD-323" value="1N4148"/>
 <part name="D20" library="microbuilder" deviceset="DIODE" device="SOD-323" value="1N4148"/>
-<part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="1k"/>
+<part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
 <part name="P+20" library="supply1" deviceset="+5V" device=""/>
 <part name="OK2" library="optocoupler" deviceset="TLP283-4" device="" value="TLP281-4"/>
 <part name="D21" library="microbuilder" deviceset="DIODE" device="SOD-323" value="1N4148"/>
@@ -22150,6 +22150,7 @@ http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;name=A24734CT-ND
 <sheets>
 <sheet>
 <plain>
+<text x="144.78" y="-215.9" size="1.778" layer="91">2022-ig 1k volt</text>
 </plain>
 <instances>
 <instance part="ZOLD_4P1" gate="_1" x="210.82" y="-251.46" rot="MR180"/>
