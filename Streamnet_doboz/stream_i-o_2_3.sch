@@ -22295,7 +22295,6 @@ http://dangerousprototypes.com</description>
 ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 2022 augusztus vége</text>
 <text x="655.32" y="-142.24" size="1.778" layer="91">BC807</text>
-<wire x1="134.62" y1="-317.5" x2="619.76" y2="-317.5" width="0.1524" layer="106"/>
 </plain>
 <instances>
 <instance part="ZOLD_4P1" gate="_1" x="210.82" y="-251.46" rot="MR180"/>
@@ -22645,8 +22644,8 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <instance part="R50" gate="G$1" x="335.28" y="-335.28" rot="R180"/>
 <instance part="R51" gate="G$1" x="530.86" y="-335.28" rot="R180"/>
 <instance part="GND46" gate="1" x="320.04" y="-340.36"/>
-<instance part="GND47" gate="1" x="551.18" y="-340.36" smashed="yes">
-<attribute name="VALUE" x="548.64" y="-342.9" size="1.778" layer="96"/>
+<instance part="GND47" gate="1" x="558.8" y="-340.36" smashed="yes">
+<attribute name="VALUE" x="556.26" y="-342.9" size="1.778" layer="96"/>
 </instance>
 <instance part="GND48" gate="1" x="121.92" y="-340.36"/>
 <instance part="GND49" gate="1" x="358.14" y="-340.36"/>
@@ -23322,9 +23321,9 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 </segment>
 <segment>
 <pinref part="GND47" gate="1" pin="GND"/>
-<pinref part="U$8" gate="G$1" pin="14_SDO"/>
-<wire x1="551.18" y1="-337.82" x2="551.18" y2="-322.58" width="0.1524" layer="91"/>
-<wire x1="551.18" y1="-322.58" x2="546.1" y2="-322.58" width="0.1524" layer="91"/>
+<wire x1="558.8" y1="-337.82" x2="558.8" y2="-320.04" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="13_!OE!"/>
+<wire x1="546.1" y1="-320.04" x2="558.8" y2="-320.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$9" gate="G$1" pin="01_GND"/>
@@ -25844,11 +25843,11 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 </net>
 <net name="CHECK" class="0">
 <segment>
-<wire x1="553.72" y1="-320.04" x2="553.72" y2="-360.68" width="0.1524" layer="91"/>
-<wire x1="553.72" y1="-360.68" x2="543.56" y2="-360.68" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="-322.58" x2="551.18" y2="-360.68" width="0.1524" layer="91"/>
+<wire x1="551.18" y1="-360.68" x2="543.56" y2="-360.68" width="0.1524" layer="91"/>
 <label x="543.56" y="-360.68" size="1.27" layer="95" xref="yes"/>
-<pinref part="U$8" gate="G$1" pin="13_!OE!"/>
-<wire x1="546.1" y1="-320.04" x2="553.72" y2="-320.04" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="14_SDO"/>
+<wire x1="546.1" y1="-322.58" x2="551.18" y2="-322.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PGEC1/AN3/C1INC/C2INA/RPB1/CTED12/PMD1/RB1"/>

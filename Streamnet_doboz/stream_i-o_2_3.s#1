@@ -22083,7 +22083,6 @@ http://dangerousprototypes.com</description>
 <part name="D19" library="microbuilder" deviceset="DIODE" device="SOD-323" value="1N4148"/>
 <part name="D20" library="microbuilder" deviceset="DIODE" device="SOD-323" value="1N4148"/>
 <part name="R23" library="rcl" deviceset="R-EU_" device="R0805" value="2k2"/>
-<part name="P+20" library="supply1" deviceset="+5V" device=""/>
 <part name="OK2" library="optocoupler" deviceset="TLP283-4" device="" value="TLP281-4"/>
 <part name="D21" library="microbuilder" deviceset="DIODE" device="SOD-323" value="1N4148"/>
 <part name="D22" library="microbuilder" deviceset="DIODE" device="SOD-323" value="1N4148"/>
@@ -22286,6 +22285,7 @@ http://dangerousprototypes.com</description>
 <part name="D56" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
 <part name="D57" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
 <part name="D58" library="dp_devices" deviceset="DIODE" device="-SOD-123"/>
+<part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -22556,7 +22556,6 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <instance part="D19" gate="G$1" x="579.12" y="-139.7" rot="R90"/>
 <instance part="D20" gate="G$1" x="617.22" y="-139.7" rot="R90"/>
 <instance part="R23" gate="G$1" x="162.56" y="-218.44" rot="MR90"/>
-<instance part="P+20" gate="1" x="162.56" y="-208.28" rot="MR0"/>
 <instance part="OK2" gate="A" x="99.06" y="-228.6"/>
 <instance part="OK2" gate="B" x="99.06" y="-243.84"/>
 <instance part="OK2" gate="C" x="99.06" y="-259.08"/>
@@ -22768,6 +22767,7 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <instance part="D56" gate="D" x="546.1" y="-114.3" rot="R90"/>
 <instance part="D57" gate="D" x="584.2" y="-114.3" rot="R90"/>
 <instance part="D58" gate="D" x="622.3" y="-114.3" rot="R90"/>
+<instance part="+3V12" gate="G$1" x="162.56" y="-208.28"/>
 </instances>
 <busses>
 <bus name="CLK,LAKI,LABE">
@@ -24245,11 +24245,6 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <junction x="193.04" y="-254"/>
 </segment>
 <segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="P+20" gate="1" pin="+5V"/>
-<wire x1="162.56" y1="-210.82" x2="162.56" y2="-213.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="D21" gate="G$1" pin="C"/>
 <wire x1="83.82" y1="-226.06" x2="83.82" y2="-223.52" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="-223.52" x2="86.36" y2="-223.52" width="0.1524" layer="91"/>
@@ -25566,6 +25561,11 @@ ezért 3v3-ra húztuk a buszt ahol 2k-6k-ig jól működik 3k3 lett a végleges
 <pinref part="U$10" gate="G$1" pin="16_VDD"/>
 <wire x1="505.46" y1="-165.1" x2="505.46" y2="-175.26" width="0.1524" layer="91"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="+3V12" gate="G$1" pin="+3V3"/>
+<wire x1="162.56" y1="-213.36" x2="162.56" y2="-210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$142" class="0">
